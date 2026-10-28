@@ -1,0 +1,17 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Tooling and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
